@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px){
+    .container{
+        height: 60vh;
+    }
+    .game{
+        
+        width: 90vmin;
+        gap: 30px;
+    }
+    .box{
+        height: 25vmin;
+        width: 25vmin;
+        font-size: 10vmin;
+        font-weight: bold;
+        box-shadow: 10px 10px 3px black;
+        color: #847e89;
+    }
+    h1{
+        margin-top: 70px;
+        font-size: 15vmin;
+        font-weight: bold;
+        text-decoration: underline double;
+    }
+    .msg-container{
+        justify-items: center;
+        align-items: center;
+        height:100vh;
+        padding: 55px;
+        margin-bottom: 40vmin;
+    }
+    .msg{
+        font-size: 12vmin;
+    }
+    .reset-btn{
+        border-radius: 2.0rem;
+        font-size: 2.9rem;
+        margin-top: 90px;
+    }
+}
